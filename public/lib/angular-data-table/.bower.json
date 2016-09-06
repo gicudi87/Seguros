@@ -1,0 +1,41 @@
+{
+  "name": "angular-data-table",
+  "version": "0.6.0",
+  "homepage": "https://github.com/Swimlane/angular-data-table",
+  "author": {
+    "name": "Swimlane",
+    "email": "austin@swimlane.com",
+    "web": "http://swimlane.com/"
+  },
+  "main": [
+    "release/dataTable.js",
+    "release/dataTable.css"
+  ],
+  "description": "A feature-rich but lightweight ES6 AngularJS Data Table crafted for large data sets!",
+  "keywords": [
+    "data-table",
+    "material-design",
+    "angular",
+    "table",
+    "grid"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "jspm_packages",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.6.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.6.0",
+    "commit": "bb34e8a55533c5cd666533cacdc3f2dc4dcf6bdf"
+  },
+  "_source": "https://github.com/Swimlane/angular-data-table.git",
+  "_target": "^0.6.0",
+  "_originalSource": "angular-data-table",
+  "_direct": true
+}

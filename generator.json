@@ -1,0 +1,27 @@
+{
+	"baseName": "myapp",
+	"entities": [
+		{
+			"name": "comments",
+			"attrs": [
+				{
+					"attrName": "name",
+					"attrType": "String",
+					"minLength": "0",
+					"maxLength": "30",
+					"enumValues": [],
+					"required": false
+				},
+				{
+					"attrName": "comment",
+					"attrType": "String",
+					"minLength": "0",
+					"maxLength": "100",
+					"enumValues": [],
+					"required": false
+				}
+			]
+		}
+	],
+	"resources": []
+}

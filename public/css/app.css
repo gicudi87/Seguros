@@ -1,0 +1,16 @@
+body {
+    padding-left: 0px; !important;
+    padding-right: 0px; !important;
+    margin-top: 60px;
+    /*padding: 10px;*/
+    background-color: white;
+}
+header{
+    top:0;
+    height: 50px;
+    max-height: 100px;
+
+}
+
+
+

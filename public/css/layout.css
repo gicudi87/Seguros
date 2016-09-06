@@ -1,0 +1,241 @@
+.div-padding{
+    padding-left: 0px; !important;
+    /*padding-right: 0px; !important;*/
+}
+#contenedor {
+}
+#cabecera {
+}
+.div-container{
+    padding-right: 0px; !important;
+    padding-left: 0px;  !important;
+    max-width: 1200px;
+}
+
+#home {
+    background: url(../imagenes/logomty.jpg) no-repeat center center ;
+    position: absolute;
+    z-index: -1;
+    top: 35.5%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*opacity: .5;*/
+    width: 100%;
+    height: 22%;
+}
+
+
+
+#menu {
+    float: left;
+    width: 20%;
+}
+#contenido {
+    float: left;
+    width: 80%;
+}
+#contenido #principal {
+    float: left;
+    width: 80%;
+}
+#contenido #secundario {
+    float: left;
+    width: 20%;
+}
+
+#pie {
+    clear: both;
+}
+
+.titulo {
+    background-color: #5d73bd;
+    border-color: #5d73bd;
+
+}
+.derecha {
+    float: right;
+    left: 2%;
+    width: 50%;
+    text-align: right;
+    color: #222222 !important;
+}
+.izquierda {
+    float: left;
+    right: 3.2%;
+    width: 50%;
+    text-align: left;
+    color: #222222 !important;
+}
+.centro {
+    text-align: center;
+}
+
+.img-url{
+    width: 200px;
+    height: 48px;
+    margin-top: -7%;
+}
+
+.div-backgroun{
+    background-image: url(../imagenes/fondo-slide.jpg);
+    margin-top: -2%;
+}
+
+.form-modal {
+    width: 1000%;
+}
+.espacio-arriba-crear{
+    margin-top: -5%;
+}
+.espacio-arriba {
+    margin-top: 5%;
+}
+
+#slider{
+    position: relative;
+    width: 420px;
+    height: 270px;
+    padding: 10px;
+    background-color: #447eae;
+    margin-left: 20%;
+}
+#slider > div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.login {
+    cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+    padding:5px 10px; /*add some padding to the inside of the button*/
+    background:#35b128; /*the colour of the button*/
+    border:1px solid #33842a; /*required or the default border for the browser will appear*/
+    /*give the button curved corners, alter the size as required*/
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    /*give the button a drop shadow*/
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+    -moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+    box-shadow: 0 0 4px rgba(0,0,0, .75);
+    /*style the text*/
+    color:#f3f3f3;
+    font-size:1.1em;
+
+}
+
+.login2 {
+    cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+    padding:4.5px 6px; /*add some padding to the inside of the button*/
+    background:#35b128; /*the colour of the button*/
+    border:1px solid #33842a; /*required or the default border for the browser will appear*/
+    /*give the button curved corners, alter the size as required*/
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    /*give the button a drop shadow*/
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+    -moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+    box-shadow: 0 0 4px rgba(0,0,0, .75);
+    /*style the text*/
+    color:#f3f3f3;
+    font-size:1.1em;
+    margin-left: 85%;
+}
+
+.myButton {
+    background-color:#36b128;
+    -moz-border-radius:27px;
+    -webkit-border-radius:27px;
+    border-radius:27px;
+    border:2px solid #1ce630;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    padding:8px 7px;
+    text-decoration:none;
+    text-shadow:1px -2px 0px #2f6627;
+}
+.login:hover {
+    background-color:#64db1f;
+}
+.login:active {
+    position:relative;
+    top:1px;
+}.login2:hover {
+     background-color:#64db1f;
+ }
+.login2:active {
+    position:relative;
+    top:1px;
+}
+
+
+nav ul {
+    background: #efefef;
+    background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);
+    background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%);
+    background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%);
+    box-shadow: 0px 0px 6px rgba(0,0,0,0.15);
+    padding: 0 5px;
+    border-radius: 10px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+}
+nav ul:after {
+    content: ""; clear: both; display: block;
+}
+
+nav ul ul {
+    display: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul li {
+    float: left;
+}
+nav ul li:hover {
+    background: #4b545f;
+    background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+    background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+    background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+}
+nav ul li:hover a {
+    color: #fff;
+}
+
+nav ul li a {
+    display: block; padding: 5px 5px;
+    color: #757575; text-decoration: none;
+}
+
+nav ul ul {
+    background: #5f6975; border-radius: 0px; padding: 0;
+    position: absolute; top: 100%;
+}
+nav ul ul li {
+    float: none;
+    border-top: 1px solid #6b727c;
+    border-bottom: 1px solid #575f6a;
+    position: relative;
+}
+nav ul ul li a {
+    padding: 5px 10px;
+    color: #fff;
+}
+nav ul ul li a:hover {
+    background: #4b545f;
+}
+
+nav ul ul ul {
+    position: absolute; left: 100%; top:0;
+}
+
+
